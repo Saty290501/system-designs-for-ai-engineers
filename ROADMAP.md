@@ -1,6 +1,6 @@
 # Project Roadmap
 
-This roadmap tracks a topic-by-topic study of Martin Kleppmann's *Designing Data-Intensive Applications*, first edition (2017), followed by practical connections to AI engineering systems.
+This roadmap tracks a topic-by-topic study of Martin Kleppmann's *Designing Data-Intensive Applications*, followed by practical connections to AI engineering systems.
 
 ## Guiding principles
 
