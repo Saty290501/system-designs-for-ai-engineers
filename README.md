@@ -4,7 +4,7 @@ A visual, practical learning repository for understanding system design through 
 
 ## What this repository is
 
-I am working through the 2017 first edition topic by topic. For each topic, I will create a concise explanation in my own words, an original visualization, and a practical engineering connection. Where it fits, I will add an AI systems perspective and explain the design tradeoffs.
+I’m working through *Designing Data-Intensive Applications* one topic at a time. Each topic becomes a concise explanation in my own words, an original visualization, and a practical engineering connection. Where it fits, I’ll add an AI systems perspective and explain the design tradeoffs.
 
 This repository is a learning companion, not a replacement for the book. It does not reproduce the book's text or figures. Please use the book as the primary source and follow its chapter order and terminology.
 
