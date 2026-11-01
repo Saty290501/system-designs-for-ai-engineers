@@ -1,12 +1,13 @@
 # Project Roadmap
 
-Build system design understanding in layers: establish the fundamentals, study DDIA in the book's order, then apply those ideas to AI systems and design exercises.
+Build system design understanding in layers: learn the foundations, study *Designing Data-Intensive Applications* (DDIA) topic by topic, then apply those ideas to AI systems and design exercises. The DDIA sequence follows the contents of the copy used for this project.
 
-## Guiding principles
+## Working principles
 
-- Explain ideas in original, concise language and create original visuals.
+- Explain ideas in original, concise language; make the notes easier to learn from without copying the source.
+- Draw original diagrams and use practical examples.
 - Use DDIA as the core reference for data systems and distributed systems foundations.
-- Connect a topic to AI systems where the connection is useful; don't force an AI example onto every concept.
+- Add an AI engineering connection where it helps; don't force one onto every topic.
 - State assumptions, tradeoffs, and failure modes, not just components.
 - Keep fast-changing tools and market notes dated and separate from stable concepts.
 - Credit sources; do not reproduce book passages or figures.
@@ -14,12 +15,12 @@ Build system design understanding in layers: establish the fundamentals, study D
 ## Stage 0 — Repository setup
 
 - [x] Create the public repository, README, and roadmap
-- [x] Confirm the DDIA edition: first edition (2017)
 - [x] Add the foundations section and learning tracker
+- [x] Add source references and original diagrams
 
 ## Stage 1 — System design foundations
 
-For every note, explain the concept, draw an original diagram, connect it to an AI system where useful, and include a small practice prompt.
+The notes establish the vocabulary and reasoning process used in later designs.
 
 - [x] System design fundamentals
 - [x] Client–server architecture
@@ -30,7 +31,7 @@ For every note, explain the concept, draw an original diagram, connect it to an 
 
 ## Stage 2 — Study DDIA topic by topic
 
-Follow the book's three parts and 12 chapters. Create a topic entry with an explanation, original visualization, practical example, tradeoffs, and a relevant AI connection when appropriate.
+For every chapter, write an original explanation, create a visualization, give a practical example, capture tradeoffs, and add an AI connection when relevant.
 
 ### Part I — Foundations of Data Systems
 
@@ -53,9 +54,11 @@ Follow the book's three parts and 12 chapters. Create a topic entry with an expl
 - [ ] 11 — Stream Processing
 - [ ] 12 — The Future of Data Systems
 
-## Stage 3 — Connect foundations to AI engineering
+## Stage 3 — Connect the foundations to AI engineering
 
-- [ ] Data ingestion, storage, indexing, and retrieval
+Build these connections alongside the book notes when the concepts arise:
+
+- [ ] Data ingestion, storage, indexing, and retrieval for AI applications
 - [ ] Embeddings and vector search as retrieval options
 - [ ] Data encoding, schema evolution, and service interfaces in model pipelines
 - [ ] Replication, partitioning, and distributed processing for growing workloads
@@ -69,11 +72,15 @@ Follow the book's three parts and 12 chapters. Create a topic entry with an expl
 - [ ] AI inference service with latency, cost, and reliability considerations
 - [ ] AI data pipeline covering ingestion, transformation, and derived data
 
-Link every case study to the concepts it applies and state its assumptions and tradeoffs.
+Link each case study to the concepts it applies and state its assumptions and tradeoffs.
 
 ## Stage 5 — Keep current AI engineering context
 
 - [ ] Add dated notes for evolving tools and practices, such as model serving, evaluation, observability, and governance
 - [ ] Link to primary sources and revisit these notes periodically
+
+## Next step
+
+Start DDIA Chapter 1, “Reliable, Scalable, and Maintainable Applications.” Use the chapter to explore reliability, load, performance, scalability, operability, simplicity, and evolvability.
 
 See [LEARNING-TRACKER.md](LEARNING-TRACKER.md) for topic-level progress.
