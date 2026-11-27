@@ -1,5 +1,11 @@
 # Factory Pattern
 
+A factory is a method or class that creates the right kind of object for you based on what you ask for.
+
+Ask `ReminderFactory` for `"slack"`, and it gives you a `SlackReminder`. Ask for `"email"`, and it gives you an `EmailReminder`.
+
+**Why use it?** You put the decision about which object to create in one place. The rest of your code can ask for a reminder and call `send()`.
+
 ## Start with one sender
 
 The class reminder app starts with email. If email is the only choice, this is enough.
